@@ -1,0 +1,26 @@
+{
+    "name": "scherida/notification",
+    "description": "This is a library that user composer as the basis for generation email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scherida Rayane de Souza",
+            "email": "scheridarayane@gmail.com",
+            "homepage": "https://www.upinside.com.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.1.4"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }    
+    }
+}
